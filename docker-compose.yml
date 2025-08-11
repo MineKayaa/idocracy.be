@@ -21,7 +21,7 @@ services:
     container_name: idocracy_api
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "8002:8002"
     environment:
       - MONGODB_URL=mongodb://admin:password@mongodb:27017
       - MONGODB_DB_NAME=idocracy
