@@ -39,4 +39,5 @@ volumes:
 
 networks:
   idocracy_network:
+    name: idocracy_network
     driver: bridge 
