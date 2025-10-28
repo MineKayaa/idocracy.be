@@ -2,7 +2,7 @@
 
 IDocracy is a comprehensive FastAPI-based identity and access management system that provides centralized authentication, user management, application management, and Single Sign-On (SSO) capabilities.
 
-## 🚀 Features
+## Features
 
 ### Core Features
 - **Centralized Authentication**: JWT-based authentication with access and refresh tokens
@@ -25,7 +25,7 @@ IDocracy is a comprehensive FastAPI-based identity and access management system 
 - **Token Expiration**: Configurable token expiration times
 - **CORS Support**: Cross-origin resource sharing configuration
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 - **Backend**: FastAPI (Python 3.11)
@@ -86,7 +86,7 @@ IDocracy is a comprehensive FastAPI-based identity and access management system 
 }
 ```
 
-## 📋 API Endpoints
+## API Endpoints
 
 ### Authentication APIs
 - `POST /api/v1/auth/login` - Login and return JWT tokens
@@ -122,7 +122,7 @@ IDocracy is a comprehensive FastAPI-based identity and access management system 
 - `GET /api/v1/sso/launch/{app_id}` - Launch app with SSO authentication
 - `POST /api/v1/sso/verify` - Verify SSO token (for client apps)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Docker and Docker Compose
@@ -402,13 +402,7 @@ docker logs idocracy_mongodb
 docker logs -f idocracy_api
 ```
 
-## 📝 API Documentation
-
-Once the application is running, you can access:
-- **Interactive API Docs**: http://localhost:8000/docs (Swagger UI)
-- **Alternative API Docs**: http://localhost:8000/redoc (ReDoc)
-
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -416,12 +410,7 @@ Once the application is running, you can access:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
+##  Support
 For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
